@@ -48,13 +48,25 @@ export default function UppclHeader({ activeTab, setActiveTab }) {
       {/* 1. Top Blue Bar */}
       <div className="bg-[#1f498c] text-white text-[11px] font-bold px-4 py-1.5 flex justify-between items-center hidden md:flex">
         <div className="flex divide-x divide-white/30">
-          <a href="#" className="px-3 hover:underline">SCREEN READER ACCESS</button >
-          <a href="#" className="px-3 hover:underline">SKIP TO MAIN CONTENT</button>
-          <a href="#" className="px-3 hover:underline">SITEMAP</button>
-          <a href="#" className="px-3 text-orange-300 hover:underline">OUTSOURCE KARMI PORTAL</button>
-          <a href="#" className="px-3 hover:underline">हिंदी संस्करण</button>
-          <span className="px-3 flex items-center justify-center bg-yellow-400 text-black">♿</span>
-          <a href="#" className="px-3 hover:underline">VBTS</button>
+          <a href="/" onClick={(e) => e.preventDefault()}>
+  SCREEN READER ACCESS
+</a>
+          <a href="/" onClick={(e) => e.preventDefault()}>
+  SKIP TO MAIN CONTENT
+</a>
+          <a href="/" onClick={(e) => e.preventDefault()}>
+  SITEMAP
+</a>
+          <a href="/" onClick={(e) => e.preventDefault()}>
+  OUTSOURCE KARMI PORTAL
+</a>
+          <a href="/" onClick={(e) => e.preventDefault()}>
+  हिंदी संस्करण
+</a>
+          <span className="px-3 flex items-center justify-center bg-yellow-400 text-black">
+          <a href="/" onClick={(e) => e.preventDefault()}>
+  VBTS
+</a>
         </div>
         <div className="flex items-center gap-2">
           <div className="relative">
