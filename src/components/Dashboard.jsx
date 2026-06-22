@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {
-  BarChart, Bar, PieChart, Pie, Cell, LineChart, Line,
+  PieChart, Pie, Cell, LineChart, Line,
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer
 } from "recharts";
 import { Check, Clock, AlertCircle } from "lucide-react";
