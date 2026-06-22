@@ -154,7 +154,7 @@ export default function UppclHeader({ activeTab, setActiveTab }) {
             </div>
           </div>
 
-          {/* PM Photo */}
+          
           <div className=" border-2 flex shrink-0 items-end justify-center pt-4 opacity-90 hover:opacity-100 transition-opacity">
             <img
               src="/pm_portait.png"
