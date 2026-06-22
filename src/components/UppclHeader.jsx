@@ -146,7 +146,7 @@ export default function UppclHeader({ activeTab, setActiveTab }) {
           <div className=" border-2 flex shrink-0 items-end justify-center pt-4 opacity-90 hover:opacity-100 transition-opacity">
             <img
               src="/pm_portait.png"
-              alt="Placeholder for PM Photo"
+              alt="Placeholder for PM "
               className="h-56 object-contain drop-shadow-md"
             />
           </div>
