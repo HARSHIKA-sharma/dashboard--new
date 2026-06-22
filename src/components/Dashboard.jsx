@@ -1,7 +1,16 @@
 import React, { useState } from "react";
 import {
-  PieChart, Pie, Cell, LineChart, Line,
-  XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer
+  PieChart,
+  Pie,
+  Cell,
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer
 } from "recharts";
 import { Check, Clock, AlertCircle } from "lucide-react";
 import { PROJECTS, RECENT_ACTIVITY, TEAM_MEMBERS } from "../data/projects";
