@@ -50,23 +50,24 @@ export default function UppclHeader({ activeTab, setActiveTab }) {
         <div className="flex divide-x divide-white/30">
           <a href="/" onClick={(e) => e.preventDefault()}>
   SCREEN READER ACCESS
-</a>
+  </a>
           <a href="/" onClick={(e) => e.preventDefault()}>
   SKIP TO MAIN CONTENT
-</a>
+  </a>
           <a href="/" onClick={(e) => e.preventDefault()}>
   SITEMAP
-</a>
+  </a>
           <a href="/" onClick={(e) => e.preventDefault()}>
   OUTSOURCE KARMI PORTAL
-</a>
+  </a>
           <a href="/" onClick={(e) => e.preventDefault()}>
   हिंदी संस्करण
-</a>
+  </a>
           <span className="px-3 flex items-center justify-center bg-yellow-400 text-black">
-          <a href="/" onClick={(e) => e.preventDefault()}>
-  VBTS
-</a>
+  <a href="/" onClick={(e) => e.preventDefault()}>
+    VBTS
+  </a>
+</span>
         </div>
         <div className="flex items-center gap-2">
           <div className="relative">
@@ -158,7 +159,7 @@ export default function UppclHeader({ activeTab, setActiveTab }) {
           <div className=" border-2 flex shrink-0 items-end justify-center pt-4 opacity-90 hover:opacity-100 transition-opacity">
             <img
               src="/pm_portait.png"
-              alt="Placeholder for PM "
+              alt="Prime Minister"
               className="h-56 object-contain drop-shadow-md"
             />
           </div>
